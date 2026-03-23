@@ -60,10 +60,10 @@ const Footer1 = () => {
             <div className="cs_footer_widget cs_links_widget">
               <h3 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_29">Features</h3>
               <ul className="cs_footer_menu cs_mp_0">
-                <li><Link href="#">School ERP</Link></li>
-                <li><Link href="#">WhatsApp Automation</Link></li>
-                <li><Link href="#">Student Tracking</Link></li>
-                <li><Link href="#">Analytics & Reports</Link></li>
+                <li><Link href="/">School ERP</Link></li>
+                <li><Link href="/">WhatsApp Automation</Link></li>
+                <li><Link href="/">Student Tracking</Link></li>
+                <li><Link href="/">Analytics & Reports</Link></li>
               </ul>
             </div>
 
@@ -71,10 +71,10 @@ const Footer1 = () => {
             <div className="cs_footer_widget cs_help_widget">
               <h3 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_29">Company</h3>
               <ul className="cs_footer_menu cs_mp_0">
-                <li><Link href="#">Why Choose Us</Link></li>
-                <li><Link href="#">How It Works</Link></li>
-                <li><Link href="#">Success Stories</Link></li>
-                <li><Link href="#">Testimonials</Link></li>
+                <li><Link href="/chooseus">Why Choose Us</Link></li>
+                <li><Link href="/how-it-works">How It Works</Link></li>
+                <li><Link href="/success-stories">Success Stories</Link></li>
+                <li><Link href="/testimonials">Testimonials</Link></li>
               </ul>
             </div>
 
@@ -82,10 +82,10 @@ const Footer1 = () => {
             <div className="cs_footer_widget cs_contact_widget">
               <h3 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_29">Resources</h3>
               <ul className="cs_footer_menu cs_mp_0">
-                <li><Link href="#">Pricing</Link></li>
-                <li><Link href="#">FAQ</Link></li>
-                <li><Link href="#">Blog</Link></li>
-                <li><Link href="#">Support</Link></li>
+                <li><Link href="/pricing">Pricing</Link></li>
+                <li><Link href="/faq">FAQ</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
+                <li><Link href="/contact">Support</Link></li>
               </ul>
             </div>
 
