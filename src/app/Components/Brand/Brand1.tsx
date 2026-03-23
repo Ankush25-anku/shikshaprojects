@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 const Brand1 = () => {
 
     const chooseContent = [
@@ -22,14 +22,14 @@ const Brand1 = () => {
             <div className="cs_brands_list">
             {chooseContent.map((item, i) => (
               <div key={i} className="cs_center">
-                <img src={item.img} alt="brand-img" />
+                <Image src={item.img} alt="brand-img" />
               </div>
                 ))}
             </div>
             <div className="cs_brands_list">
             {chooseContent.map((item, i) => (
               <div key={i} className="cs_center">
-               <img src={item.img} alt="brand-img" />
+               <Image src={item.img} alt="brand-img" />
               </div>
                 ))}
             </div>

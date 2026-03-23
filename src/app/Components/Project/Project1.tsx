@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 const Project1 = () => {
 
@@ -53,7 +54,7 @@ const Project1 = () => {
               {projectContent.map((item, i) => (
               <div  key={i} className={`cs_isotop_item col-lg-3  ${ active === 'all' ? '' : !(active === item.category) ? 'd-none' : '' }`} >
                 <div className="cs_project_item cs_radius_10 position-relative">
-                  <img src={item.img} alt="Post image" />
+                  <Image src={item.img} alt="Post image" />
                   <div className="cs_project_info cs_radius_5 position-absolute">
                     <h3 className="cs_fs_24 cs_semibold cs_mb_6"><Link href="/project/project-details">{item.title}</Link></h3>
                     <Link href="/project/project-details" className="cs_project_btn cs_fs_18 cs_theme_color_2">View Project</Link>

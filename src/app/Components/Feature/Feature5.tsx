@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 const Feature5 = () => {
     return (
  <section>
@@ -5,9 +7,9 @@ const Feature5 = () => {
       <div className="container">
         <div className="cs_section_heading cs_style_1 cs_center_column cs_mb_47 text-center">
           <div className="cs_section_subtitle cs_fs_18 cs_heading_color cs_mb_22">
-            <img src="/assets/img/icons/star-1.svg" alt="Star icon" />
+            <Image src="/assets/img/icons/star-1.svg" alt="Star icon" />
             <span>How ShikshaFlow Works</span>
-            <img src="/assets/img/icons/star-1.svg" alt="Star icon" />
+            <Image src="/assets/img/icons/star-1.svg" alt="Star icon" />
           </div>
           <h2 className="cs_section_title cs_fs_48 cs_semibold mb-0 wow fadeInDown">
             Get Started with Smart School ERP <br /> in 3 Simple Steps
@@ -30,7 +32,7 @@ const Feature5 = () => {
                 Set up ShikshaFlow with your school details and enable WhatsApp integration 
                 to start managing communication and enquiries instantly.
               </p>
-              <img src="/assets/img/border-shape.png" alt="Border shape" />
+              <Image src="/assets/img/border-shape.png" alt="Border shape" />
             </div>
           </div>
 
@@ -66,7 +68,7 @@ const Feature5 = () => {
                 Parents and students receive all updates directly on WhatsApp — 
                 no need to download or install any separate application.
               </p>
-              <img src="/assets/img/border-shape.png" alt="Border shape" />
+              <Image src="/assets/img/border-shape.png" alt="Border shape" />
             </div>
           </div>
 

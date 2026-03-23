@@ -31,7 +31,7 @@ const Brand2 = () => {
               <div className="cs_brands_list">
                 {chooseContent.map((item, i) => (
                   <div key={i} className="cs_center">
-                    <img src={item.img} alt="brand-img" />
+                    <Image src={item.img} alt="brand-img" />
                   </div>
                 ))}
               </div>
@@ -40,7 +40,7 @@ const Brand2 = () => {
               <div className="cs_brands_list">
                 {chooseContent.map((item, i) => (
                   <div key={i} className="cs_center">
-                    <img src={item.img} alt="brand-img" />
+                    <Image src={item.img} alt="brand-img" />
                   </div>
                 ))}
               </div>
