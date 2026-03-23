@@ -93,7 +93,7 @@ const Footer1 = () => {
         </div>
       </div>
 
-  <div className="cs_footer_bottom position-relative">
+<div className="cs_footer_bottom position-relative">
   <div className="container">
     <div className="cs_footer_text cs_white_color text-center">
       <a 
@@ -102,7 +102,7 @@ const Footer1 = () => {
         rel="noopener noreferrer"
         style={{ color: "inherit", textDecoration: "none" }}
       >
-        Copyright &copy; <span className="cs_getting_year"></span> RCERP TECHNOLOGIES PVT LTD. All rights reserved.
+        Copyright &copy; <span>{new Date().getFullYear()}</span> RCERP TECHNOLOGIES PVT LTD. All rights reserved.
       </a>
     </div>
   </div>

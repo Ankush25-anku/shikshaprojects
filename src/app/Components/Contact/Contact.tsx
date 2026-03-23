@@ -37,7 +37,7 @@ const Contact = () => {
                       <div className="cs_iconbox_info">
                         <p className="cs_white_color cs_heading_font cs_mb_4">Email Us</p>
                         <a href="mailto:rcerptechnologies@gmail.com" className="cs_fs_24 cs_bold cs_white_color cs_heading_font">
-                          rcerptechnologies@gmail.com
+                          ravichandra@rctechbox.com
                         </a>
                       </div>
                     </div>
@@ -152,12 +152,17 @@ const Contact = () => {
 
       {/* MAP */}
       <div className="cs_location_map">
-        <iframe
-          src="https://maps.google.com/maps?q=13.0118195,77.7607226&z=17&output=embed"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          style={{ width: "100%", height: "450px", border: 0 }}
-        ></iframe>
+      <iframe
+  src="https://maps.google.com/maps?q=13.0118195,77.7607226&z=17&output=embed"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  style={{
+    width: "100%",
+    height: "450px",
+    border: 0,
+    filter: "none" // 👈 remove grayscale
+  }}
+></iframe>
       </div>
 
     </div>
