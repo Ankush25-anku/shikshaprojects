@@ -151,19 +151,37 @@ const Contact = () => {
       </section>
 
       {/* MAP */}
-      <div className="cs_location_map">
-      <iframe
-  src="https://maps.google.com/maps?q=13.0118195,77.7607226&z=17&output=embed"
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  style={{
-    width: "100%",
-    height: "450px",
-    border: 0,
-    filter: "none" // 👈 remove grayscale
-  }}
-></iframe>
-      </div>
+ <div className="cs_location_map" style={{ position: "relative" }}>
+  
+  {/* MAP */}
+  <iframe
+    src="https://maps.google.com/maps?q=13.0118195,77.7607226&z=17&output=embed"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    style={{
+      width: "100%",
+      height: "450px",
+      border: 0,
+      filter: "none"
+    }}
+  ></iframe>
+
+  {/* CLICK OVERLAY */}
+  <a
+    href="https://www.google.com/maps/dir/13.0136099,77.7617187/RCtechbox+IT+Services,+401,+Seegehalli+Rd,+Krishnarajapuram,+Bengaluru,+Karnataka+560115"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      zIndex: 10
+    }}
+  ></a>
+
+</div>
 
     </div>
   );
